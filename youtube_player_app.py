@@ -3,7 +3,7 @@ import re
 from urllib.parse import urlparse, parse_qs
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key_here'  # Required for flash messages
+app.secret_key = 'Super_secret_key'  # Required for flash messages
 
 def extract_video_id(url):
     """Extract YouTube video ID from a URL."""
